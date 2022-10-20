@@ -1,13 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@700&display=swap");
+
 body {
+  padding: 50px;
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-45deg, #00ff87 0%, #60efff 100%);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.uniqueCountry {
+  padding: 0 100px;
+  font-family: "Playfair Display", serif;
+}
+
+.playerName {
+  text-transform: uppercase;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

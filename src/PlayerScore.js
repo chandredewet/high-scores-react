@@ -2,9 +2,10 @@ import React from "react";
 
 const PlayerScore = (props) => {
   return (
-    <p>
-      {props.n} {props.s}
-    </p>
+    <tr>
+      <td className="playerName">{props.n}</td>
+      <td>{props.s}</td>
+    </tr>
   );
 };
 

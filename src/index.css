@@ -19,6 +19,20 @@ h1 {
   text-transform: uppercase;
 }
 
+.countrySection {
+  margin: 40px;
+  padding: 20px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.table {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto;
+}
+
 .uniqueCountry {
   padding: 0 100px;
   font-family: "Playfair Display", serif;
@@ -28,6 +42,22 @@ h1 {
   text-transform: uppercase;
 }
 
+.btnLayout {
+  text-align: right;
+  position: relative;
+  right: 40px;
+}
+
+.sortOrderButton {
+  border: 1px white solid;
+  background: none;
+  color: white;
+  /* #60efff; */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 600;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

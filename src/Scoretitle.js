@@ -1,9 +1,9 @@
 import React from "react";
 
-const Scoretitle = () => {
+const Scoretitle = ({ secTitle }) => {
   return (
     <div>
-      <h1>High Scores per Country</h1>
+      <h1>{secTitle}</h1>
     </div>
   );
 };
